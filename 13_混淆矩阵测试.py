@@ -1,5 +1,5 @@
 
-# 此环境不可运行，已在py36的 keras下测试
+# 此环境不可运行(需要python3.6环境下安装tensorflow)，已在本地py36的 keras下测试
 
 import keras
 import matplotlib.pyplot as plt
