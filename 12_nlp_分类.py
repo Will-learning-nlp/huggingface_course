@@ -395,6 +395,17 @@ trainer = Trainer(
 )
 trainer.train()
 
+# 此处开始训练后，报错 没有 git lfs，pip install git lfs后依然报错
+# 检查 安装文件在，版本也是最新
+# 先尝试在base 和 本nlp环境中 都安装，依然报错
+# 尝试初始化 git lfs install，报错
+# 更新 git 网页端 文件夹，依然报错
+# 官方 下载 安装包，不知道.sh的使用方法，以为无效，
+# brew 失败，404
+# csdn查询到 cloning 方法，翻墙网络下 下载， cloning文件30万量集，依然报错
+# 最后，直接在terminal运行.sh文件，成功初始化git，训练正常进行。
+
+
 #  训练开始，每个epoch模型会保存一次，并上传到Hub
 #  所以 我们能够在另一个机器上恢复训练
 
